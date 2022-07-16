@@ -3,11 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.heading{
+    text-align: center;
+    margin: 50px;
+}
 img {
     width: 100%;
     height: 50%;
-    border-radius: 8px;
+    border-radius: 14px;
 
 }
 .container {
@@ -21,9 +24,11 @@ img {
 }
 .card{
     margin: 10px;
-    width: 25%;
+    width: 300px;
+    height: 189px;
+    cursor: pointer;
+    border-radius: 16px;
+    box-shadow: 0 0 13px 0 rgb(0 0 0 / 30%);
     text-align: center;
     border: solid;
-    height: 250px;
-    border-radius: 15px;
 }
